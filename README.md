@@ -22,8 +22,8 @@ What I actually do:
 
 - 📊 Explore data to answer business questions — EDA, segmentation, trends, KPIs
 - 📈 Build Power BI dashboards — data models, DAX measures, clean report design
-- 🐍 Analyze in Python — pandas, EDA, time series forecasting
-- 🗄️ Build the data layer when needed — SQL Server warehouses, ETL, star schemas
+- 🐍 Analyze in Python — pandas, EDA, KPI analysis
+- 🗄️ Build the data layer when needed — warehouses, ETL, star schemas
 
 ---
 
@@ -47,33 +47,30 @@ What I actually do:
 
 ## 🚀 Projects
 
-### 1) Global Superstore Sales Analysis
-Analyzed sales across regions, product categories, and customer segments — where revenue comes from, where profit drops, and which customers matter most. Dashboards in both Excel and Power BI.
-**Tech:** SQL, DAX, Power BI, Excel
+### 1) [Global Superstore Sales Analysis](https://github.com/zeyad902/Global-Superstore-Sales-Analysis)
+End-to-end pipeline on 51,290 sales records (2011–2014): ETL → PostgreSQL star schema → reporting in SQL, Excel, and Power BI. The analysis found that Technology drives ~50% of profit from only ~35% of sales, flagged 2,259 loss-making products, and surfaced 2,394 orders where shipping cost ate over 20% of revenue — all wrapped in a 21-insight report.
+**Tech:** PostgreSQL, SQL (CTEs, window functions), Power BI, Excel (Power Pivot + DAX), Power Query
 
-### 2) Olist E-Commerce Analytics
-E-commerce analysis in Power BI on the Olist dataset. Modeled the data myself (star schema), wrote the DAX measures, and built an interactive dashboard covering sales, delivery performance, and customer behavior.
-**Tech:** Power BI, Power Query, DAX
+### 2) [Olist E-Commerce Analytics — Power BI Data Modeling](https://github.com/zeyad902/Olist-E-Commerce-Analytics-Power-BI-Data-Modeling)
+Power BI dashboard over 13.59M in sales, 99K orders, and 96K customers — but the real work is underneath: a fact constellation model handling multiple grains (orders, order items, payments) without double-counting, plus fixes for customer identity, duplicate geolocations, and deduplication. Credit cards alone cover ~78% of payment value.
+**Tech:** Power BI, Power Query (M), DAX, dimensional modeling
 
-### 3) Marketing Performance Analysis
-Exploratory analysis of marketing campaign data in Python — which channels and segments perform, and where spend isn't paying off.
-**Tech:** Python, Pandas, Jupyter
+### 3) [Marketing Performance Analysis](https://github.com/zeyad902/marketing-performance-analysis)
+Python EDA on ~3,000 leads across channels, campaigns, and regions — built to answer one question: where is the marketing budget actually working?
+- Best ROI: Instagram · Lowest CPA: Facebook · Underperforming: Google Ads (high spend, weak return)
+- Campaigns worth repeating: Ramadan Offer and Summer Sale
+- The bigger finding: the bottleneck isn't acquisition — it's lead conversion and follow-up
+- Caught data quality issues (campaign ID mismatches, suspicious ROI values) before trusting the numbers
 
-### 4) Retail Sales Forecasting
-Forecasted retail sales on 150K+ transactions, comparing ARIMA, Holt-Winters, and Prophet. Prophet came out ahead with a MAPE of 9.33% — notebook includes full EDA and decomposition.
-**Tech:** Python, Prophet, ARIMA, Holt-Winters
+**Tech:** Python, Pandas, Matplotlib, Seaborn — KPIs: CTR, CVR, CPC, CPA, ROI, ROAS
 
-### 5) Customer Behavior Analysis
-Combined Python, SQL, and Power BI to analyze how customers buy — purchase frequency, segments, and retention signals.
-**Tech:** Python, SQL, Power BI
+### 4) [Customer Behavior Analysis](https://github.com/zeyad902/customer_behavior_analysis)
+Analyzed ~3,900 customer records across 18 features to map how customers buy and what drives revenue. Outcome: defined high-value segments and concrete recommendations — review the discount policy, target high-revenue age groups, and focus on express-shipping users.
+**Tech:** Python, SQL (PostgreSQL), Power BI
 
-### 6) Data Job Market Analysis
-SQL analysis of the data job market — which roles pay best, which skills show up most, and where demand is heading.
-**Tech:** SQL
-
-### 7) SQL Data Warehouse
-The "behind the scenes" side of my work — a full warehouse in SQL Server with ETL, layered design, and a star schema ready for reporting.
-**Tech:** T-SQL, SQL Server, Data Modeling, ETL
+### 5) [SQL Data Warehouse](https://github.com/zeyad902/sql-data-warehouse-project)
+The engineering layer behind the analysis: a SQL Server warehouse integrating CRM + ERP sources through Bronze → Silver → Gold layers, cleaning duplicates, invalid dates, missing data, and inconsistent values along the way. The Gold layer serves 18,484 customers, 295 products, and 60,398 sales rows — validated against KPI checks (29.36M total sales, 27,659 orders).
+**Tech:** T-SQL, SQL Server, BULK INSERT, stored procedures, window functions, star schema
 
 ---
 
