@@ -43,51 +43,6 @@ My workflow covers the full analytics journey — from **SQL and data warehousin
 
 </div>
 
-### Also Used in My Work
-
-- **Data Analysis**
-- **Exploratory Data Analysis (EDA)**
-- **Statistical Analysis**
-- **Predictive Analysis**
-- **Customer & Product Analysis**
-- **RFM Analysis**
-- **CLV Analysis**
-- **Data Segmentation**
-- **KPI & Business Analysis**
-- **Microsoft SQL Server**
-- **PostgreSQL**
-- **MySQL**
-- **SSMS**
-- **SQL Query Optimization**
-- **Indexing**
-- **Execution Plans**
-- **Partitioning**
-- **Window Functions**
-- **CTEs**
-- **Views**
-- **Stored Procedures**
-- **Triggers**
-- **ETL / ELT**
-- **Medallion Architecture**
-- **Bronze / Silver / Gold Layers**
-- **Star Schema**
-- **Fact & Dimension Tables**
-- **Surrogate Keys**
-- **SCD Type 2**
-- **Incremental Loading**
-- **CDC**
-- **Data Quality**
-- **Power Query**
-- **Power Pivot**
-- **Tableau**
-- **Jupyter Notebook**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Plotly**
-- **VS Code**
-- **Gamma**
-
 ---
 
 ## 🚀 Featured Projects
