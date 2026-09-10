@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hi, I'm Zeyad 👋
-
-**Data Analyst**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1e3a,50:1f6feb,100:58a6ff&height=190&section=header&text=Hi%2C%20I%27m%20Zeyad%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&desc=Data%20Analyst&descSize=18&descAlignY=72&animation=fadeIn" width="100%" alt="Hi, I'm Zeyad — Data Analyst" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-zeyad--mohamed--goda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeyad-mohamed-goda)
 [![Email](https://img.shields.io/badge/Email-zeyadmohamedgoda%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zeyadmohamedgoda@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-zeyad902-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zeyad902)
+
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=22&pause=1400&color=58A6FF&center=true&vCenter=true&width=700&height=60&lines=I+ask+questions.+The+data+answers.;Raw+files+in.+Clear+dashboards+out.;SQL+%E2%86%92+Python+%E2%86%92+Power+BI;Numbers+first.+Opinions+later." alt="data analyst typing animation" />
 
 </div>
 
@@ -57,6 +57,7 @@ Power BI dashboard over 13.59M in sales, 99K orders, and 96K customers — but t
 
 ### 3) [Marketing Performance Analysis](https://github.com/zeyad902/marketing-performance-analysis)
 Python EDA on ~3,000 leads across channels, campaigns, and regions — built to answer one question: where is the marketing budget actually working?
+
 - Best ROI: Instagram · Lowest CPA: Facebook · Underperforming: Google Ads (high spend, weak return)
 - Campaigns worth repeating: Ramadan Offer and Summer Sale
 - The bigger finding: the bottleneck isn't acquisition — it's lead conversion and follow-up
@@ -80,3 +81,9 @@ Open to Data Analyst roles — feel free to reach out.
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/zeyad-mohamed-goda)
 - 📧 [zeyadmohamedgoda@gmail.com](mailto:zeyadmohamedgoda@gmail.com)
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0b1e3a&height=110&section=footer&animation=fadeIn" width="100%" alt="" />
+
+</div>
